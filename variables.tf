@@ -2,10 +2,6 @@ variable "region" {
     type      =  string
 }
 
-variable "region1" {
-    type      =  string
-}
-
 variable "namespace" {
   description = "Namespace (e.g. `cp` or `cloudposse`)"
   type        = string
